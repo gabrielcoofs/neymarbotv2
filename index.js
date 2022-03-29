@@ -59,7 +59,7 @@ const { modapk } = require('./lib/modapk')
 const { hbomax } = require('./lib/hbomax')
 const { fetchJson, kyun, fetchText } = require('./lib/fetcher')
 const { yta, ytv} = require('./lib/y2mate')
-const simple = require('./lib/simple')
+const { simple } = require('./lib/simple')
 
 //json
 const corinthians = JSON.parse(fs.readFileSync('./basededados/clubess/corinthians.json'))
